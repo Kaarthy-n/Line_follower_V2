@@ -16,3 +16,10 @@ void loop() {
 int myFunction(int x, int y) {
   return x + y;
 }
+
+void blinky() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+}

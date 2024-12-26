@@ -7,5 +7,6 @@
 // Function prototypes
 void setup();
 void loop();
+void blinky();
 
 #endif // MAIN_HPP
